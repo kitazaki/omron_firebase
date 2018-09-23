@@ -28,7 +28,7 @@ def main():
 
     ##  CSV_FILE format
     ##  Time,Gateway,Address,Type,RSSI (dBm),Distance (m),Sequence No.,Battery (mV),Temperature (degC),Humidity (%%RH),Light (lx),UV Index,Pressure (hPa),Noise (dB),Discomfort Index,Heat Stroke Risk,Accel.X (mg),Accel.Y (mg),Accel.Z (mg)
-    ##  2018-09-17 00:04:53.831591,raspberrypi,FFA511257B94,EP,-66,1.77188476275,69,2830.0,22.68,82.6,0,0.01,996.3,34.64,71.4,23.37,0.0,0.0,0.0
+    ##  2018-09-17 00:04:53.831591,raspberrypi,FFA511nnnnnn,EP,-66,1.77188476275,69,2830.0,22.68,82.6,0,0.01,996.3,34.64,71.4,23.37,0.0,0.0,0.0
 
     f = open(csvfile, 'r')
     reader = csv.reader(f)
